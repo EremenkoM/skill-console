@@ -1,0 +1,18 @@
+{
+    "name": "skillbox/what_time_console",
+    "description": "What time?",
+    "authors": [
+        {
+            "name": "Mikhail Eremenko",
+            "email": "eremenko.mihail@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": ["src"]
+        }
+    }
+}
